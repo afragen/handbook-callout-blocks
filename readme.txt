@@ -12,7 +12,7 @@ WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin.
 
 ## Description
 
-The make.wordpress.org blog has wonderful callout blocks but they seem to be baked in as part of the WP.org Handbook plugin.
+The make.wordpress.org blog has wonderful callout blocks but they seem to be baked in as part of the WP.org [Handbook plugin](https://meta.trac.wordpress.org/browser/sites/trunk/wordpress.org/public_html/wp-content/plugins/handbook).
 
 I was able to strip out the relevant parts of the Handbook plugin retaining only the callout blocks.
 
