@@ -18,6 +18,10 @@ I was able to strip out the relevant parts of the Handbook plugin retaining only
 
 Special thanks to [@Ipstenu](https://profiles.wordpress.org/ipstenu/) for her terrific sleuthing skills.
 
+## Screenshots
+
+1. Callout examples
+
 ## Changelog
 
 #### 1.0.0 / 2022-xx-xx
