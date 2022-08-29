@@ -24,5 +24,7 @@ Special thanks to [@Ipstenu](https://profiles.wordpress.org/ipstenu/) for her te
 
 ## Changelog
 
+[unreleased]
+* make editor padding match
 #### 1.0.0 / 2022-xx-xx
 * initial release
