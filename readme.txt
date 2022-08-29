@@ -26,5 +26,7 @@ Special thanks to [@Ipstenu](https://profiles.wordpress.org/ipstenu/) for her te
 
 [unreleased]
 * make editor padding match
+* load dashicons for non-logged in users
+
 #### 1.0.0 / 2022-xx-xx
 * initial release
