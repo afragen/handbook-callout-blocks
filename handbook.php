@@ -10,7 +10,7 @@
  * Plugin URI:        https://github.com/afragen/handbook-callout-blocks
  * GitHub Plugin URI: https://github.com/afragen/handbook-callout-blocks
  * Primary Branch:    main
- * Requires WP:       5.2
+ * Requires WP:       5.9
  * Requires PHP:      7.2
  */
 

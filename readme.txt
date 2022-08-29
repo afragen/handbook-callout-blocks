@@ -3,7 +3,7 @@
 Contributors: wporg, afragen
 License: GPLv2 or later
 Tags: wporg, handbook, callout
-Requires at least: 5.2
+Requires at least: 5.9
 Requires PHP: 7.2
 Tested up to: 6.1
 Stable tag: 1.0.0
