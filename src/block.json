@@ -7,7 +7,7 @@
   "icon": "info",
   "description": "Callout boxes to be used in handbooks.",
   "keywords": [ "alert", "tip" ],
-  "textdomain": "wporg",
+  "textdomain": "handbook-callout-blocks",
   "attributes": {
     "type": {
       "type": "string",

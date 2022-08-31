@@ -6,7 +6,7 @@
  * Author:            WordPress.org, afragen
  * Author URI:        https://wordpress.org/
  * License:           GPLv2 or later
- * Text Domain:       wporg
+ * Text Domain:       handbook-callout-blocks
  * Plugin URI:        https://github.com/afragen/handbook-callout-blocks
  * GitHub Plugin URI: https://github.com/afragen/handbook-callout-blocks
  * Primary Branch:    main
