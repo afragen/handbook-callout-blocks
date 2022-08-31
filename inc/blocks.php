@@ -20,12 +20,7 @@ class WPorg_Handbook_Blocks {
 	 * @access public
 	 */
 	public static function do_init() {
-		register_block_type_from_metadata(
-			plugin_dir_path( WPORG_HANDBOOK_PLUGIN_FILE ) . 'build/block.json',
-			[
-
-			]
-		);
+		register_block_type_from_metadata( plugin_dir_path( WPORG_HANDBOOK_PLUGIN_FILE ) . 'build/block.json' );
 	}
 }
 
