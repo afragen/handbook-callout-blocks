@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wporg/callout",
+  "title": "Callout",
+  "category": "widgets",
+  "icon": "info",
+  "description": "Callout boxes to be used in posts/pages.",
+  "keywords": [
+    "alert",
+    "tip"
+  ],
+  "textdomain": "handbook-callout-blocks",
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "info"
+    }
+  },
+  "supports": {
+    "className": false
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}
