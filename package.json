@@ -1,0 +1,16 @@
+{
+  "name": "handbook-callout-blocks",
+  "version": "1.0.0",
+  "author": "WordPress.org contributors, afragen",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+	"@wordpress/scripts": "^24.0.0",
+	"@wordpress/env": "^5.2.0"
+  },
+  "scripts": {
+	"build": "wp-scripts build",
+	"start": "wp-scripts start",
+	"lint": "wp-scripts lint-js",
+	"wp-env": "wp-env"
+  }
+}

@@ -11,22 +11,18 @@ import { InnerBlocks } from '@wordpress/block-editor';
 import edit from './edit';
 import variations from './variations';
 import transforms from './transforms';
+import metadata from './block.json';
 
-registerBlockType( 'wporg/callout', {
-	title: __( 'Callout', 'wporg' ),
-	description: __( 'Callout boxes to be used in handbooks.', 'wporg' ),
-	category: 'widgets',
-	icon: 'info',
-	keywords: [ __( 'alert', 'wporg' ), __( 'tip', 'wporg' ) ],
-	attributes: {
-		type: {
-			type: 'string',
-			default: 'info',
-		},
-	},
-	supports: {
-		className: false,
-	},
+/**
+ * Import styles
+ */
+import './editor.css';
+
+
+registerBlockType( metadata.name, {
+	title: __( 'Callout', 'handbook-callout-blocks' ),
+	description: __( 'Callout boxes to be used in handbooks.', 'handbook-callout-blocks' ),
+	keywords: [ __( 'alert', 'handbook-callout-blocks' ), __( 'tip', 'handbook-callout-blocks' ) ],
 	example: {
 		attributes: {
 			type: 'info',
@@ -37,7 +33,7 @@ registerBlockType( 'wporg/callout', {
 				attributes: {
 					content: __(
 						'This is the content of the callout boxes.',
-						'wporg'
+						'handbook-callout-blocks'
 					),
 				},
 			},
