@@ -1,7 +1,7 @@
 {
-  "name": "handbook",
+  "name": "handbook-callout-blocks",
   "version": "1.0.0",
-  "author": "WordPress.org contributors",
+  "author": "WordPress.org contributors, afragen",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@wordpress/scripts": "^9.0.0"
