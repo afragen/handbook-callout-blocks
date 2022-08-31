@@ -34,10 +34,7 @@ class WPorg_Handbook_Callout_Boxes {
 	 * Enqueues styles.
 	 */
 	public static function enqueue_styles() {
-		wp_enqueue_style( 'wporg-handbook-css', plugins_url( 'stylesheets/callout-boxes.css', WPORG_HANDBOOK_PLUGIN_FILE ), [], '20200121' );
-
-		// Load dashicons for non-logged in users.
-		wp_enqueue_style('dashicons');
+		wp_enqueue_style( 'wporg-handbook-css', plugins_url( 'stylesheets/callout-boxes.css', WPORG_HANDBOOK_PLUGIN_FILE ), [ 'dashicons' ], '20200121' );
 	}
 
 	/**
