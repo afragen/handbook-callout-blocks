@@ -11,7 +11,7 @@
  * GitHub Plugin URI: https://github.com/afragen/handbook-callout-blocks
  * Primary Branch:    main
  * Requires at least: 5.9
- * Requires PHP:      7.2
+ * Requires PHP:      7.4
  */
 
 const WPORG_HANDBOOK_PLUGIN_FILE = __FILE__;
