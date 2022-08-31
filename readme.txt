@@ -25,6 +25,7 @@ Special thanks to [@Ipstenu](https://profiles.wordpress.org/ipstenu/) for her te
 ## Changelog
 
 [unreleased]
+* refactor for current standards and practices courtesy of @Clorith
 * make editor padding match
 * load dashicons for non-logged in users
 * initial release
