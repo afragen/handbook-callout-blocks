@@ -7,8 +7,8 @@
     "@wordpress/scripts": "^9.0.0"
   },
   "scripts": {
-    "build": "wp-scripts build ./scripts/src/blocks.js --output-path=scripts",
-    "start": "wp-scripts start ./scripts/src/blocks.js --output-path=scripts",
+    "build": "wp-scripts build ./scripts/src/blocks/blocks.js --output-path=scripts",
+    "start": "wp-scripts start ./scripts/src/blocks/blocks.js --output-path=scripts",
     "lint": "wp-scripts lint-js ./scripts/src"
   }
 }
