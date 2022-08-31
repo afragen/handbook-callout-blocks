@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Handbook Callout Blocks
- * Description:       WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin.
+ * Description:       WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin for use in posts and pages.
  * Version:           1.0.0-beta2
  * Author:            WordPress.org, afragen
  * Author URI:        https://wordpress.org/

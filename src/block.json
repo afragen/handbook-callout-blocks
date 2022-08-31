@@ -5,7 +5,7 @@
   "title": "Callout",
   "category": "widgets",
   "icon": "info",
-  "description": "Callout boxes to be used in handbooks.",
+  "description": "Callout boxes to be used in posts/pages.",
   "keywords": [ "alert", "tip" ],
   "textdomain": "handbook-callout-blocks",
   "attributes": {

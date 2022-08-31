@@ -21,7 +21,7 @@ import './editor.css';
 
 registerBlockType( metadata.name, {
 	title: __( 'Callout', 'handbook-callout-blocks' ),
-	description: __( 'Callout boxes to be used in handbooks.', 'handbook-callout-blocks' ),
+	description: __( 'Callout boxes to be used in posts/pages.', 'handbook-callout-blocks' ),
 	keywords: [ __( 'alert', 'handbook-callout-blocks' ), __( 'tip', 'handbook-callout-blocks' ) ],
 	example: {
 		attributes: {
