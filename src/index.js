@@ -12,6 +12,11 @@ import edit from './edit';
 import variations from './variations';
 import transforms from './transforms';
 
+/**
+ * Import styles
+ */
+import './editor.css';
+
 registerBlockType( 'wporg/callout', {
 	title: __( 'Callout', 'wporg' ),
 	description: __( 'Callout boxes to be used in handbooks.', 'wporg' ),

@@ -1,2 +1,8 @@
 .DS_Store
 .idea
+
+build/
+node_modules/
+vendor/
+
+.wp-env.override.json
