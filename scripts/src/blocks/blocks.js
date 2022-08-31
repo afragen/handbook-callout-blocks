@@ -1,1 +1,1 @@
-import './blocks/callout';
+import './callout';
