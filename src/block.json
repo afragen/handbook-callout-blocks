@@ -17,7 +17,7 @@
   "supports": {
     "className": false
   },
-  "script": "file:./index.js",
+  "editorScript": "file:./index.js",
   "style": "file:./style.css",
   "editorStyle": "file:./style.css"
 }
