@@ -45,7 +45,7 @@ class WPorg_Handbook_Blocks {
 			true
 		);
 
-		wp_set_script_translations( 'wporg-handbook-blocks', 'wporg' );
+		wp_set_script_translations( 'wporg-handbook-blocks', 'handbook-callout-blocks' );
 
 		register_block_type(
 			'wporg/callout',

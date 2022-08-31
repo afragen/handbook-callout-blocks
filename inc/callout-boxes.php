@@ -47,11 +47,11 @@ class WPorg_Handbook_Callout_Boxes {
 	 */
 	public function register_shortcodes() {
 		$this->shortcodes = [
-			'info'     => __( 'Note:', 'wporg' ),
-			'tip'      => __( 'Tip:', 'wporg' ),
-			'alert'    => __( 'Alert:', 'wporg' ),
-			'tutorial' => __( 'Tutorial:', 'wporg' ),
-			'warning'  => __( 'Warning:', 'wporg' ),
+			'info'     => __( 'Note:', 'handbook-callout-blocks' ),
+			'tip'      => __( 'Tip:', 'handbook-callout-blocks' ),
+			'alert'    => __( 'Alert:', 'handbook-callout-blocks' ),
+			'tutorial' => __( 'Tutorial:', 'handbook-callout-blocks' ),
+			'warning'  => __( 'Warning:', 'handbook-callout-blocks' ),
 		];
 
 		foreach ( array_keys( $this->shortcodes ) as $name ) {

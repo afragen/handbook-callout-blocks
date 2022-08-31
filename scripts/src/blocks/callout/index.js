@@ -13,11 +13,11 @@ import variations from './variations';
 import transforms from './transforms';
 
 registerBlockType( 'wporg/callout', {
-	title: __( 'Callout', 'wporg' ),
-	description: __( 'Callout boxes to be used in handbooks.', 'wporg' ),
+	title: __( 'Callout', 'handbook-callout-blocks' ),
+	description: __( 'Callout boxes to be used in handbooks.', 'handbook-callout-blocks' ),
 	category: 'widgets',
 	icon: 'info',
-	keywords: [ __( 'alert', 'wporg' ), __( 'tip', 'wporg' ) ],
+	keywords: [ __( 'alert', 'handbook-callout-blocks' ), __( 'tip', 'handbook-callout-blocks' ) ],
 	attributes: {
 		type: {
 			type: 'string',
@@ -37,7 +37,7 @@ registerBlockType( 'wporg/callout', {
 				attributes: {
 					content: __(
 						'This is the content of the callout boxes.',
-						'wporg'
+						'handbook-callout-blocks'
 					),
 				},
 			},
