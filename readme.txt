@@ -1,6 +1,6 @@
 # Handbook Callout Blocks
 
-Contributors: wporg, afragen
+Contributors: wporg, afragen, Clorith
 License: GPLv2 or later
 Tags: wporg, handbook, callout
 Requires at least: 5.9
@@ -8,7 +8,7 @@ Requires PHP: 7.4
 Tested up to: 6.1
 Stable tag: 1.0.0
 
-WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin.
+WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin for use in posts and pages.
 
 ## Description
 
@@ -16,7 +16,10 @@ The make.wordpress.org blog has wonderful callout blocks but they seem to be bak
 
 I was able to strip out the relevant parts of the Handbook plugin retaining only the callout blocks.
 
-Special thanks to [@Ipstenu](https://profiles.wordpress.org/ipstenu/) for her terrific sleuthing skills.
+## Special Thanks
+
+* [@Ipstenu](https://profiles.wordpress.org/ipstenu/) for her terrific sleuthing skills.
+* [@Clorith](https://profiles.wordpress.org/Clorith) for bringing code up to current standards and best practices.
 
 ## Screenshots
 
