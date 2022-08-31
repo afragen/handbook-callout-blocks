@@ -18,6 +18,5 @@
     "className": false
   },
   "editorScript": "file:./index.js",
-  "style": "file:./style.css",
-  "editorStyle": "file:./style.css"
+  "style": "file:./index.css"
 }
