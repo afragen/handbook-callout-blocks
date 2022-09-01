@@ -1,14 +1,30 @@
 name: Deploy to WordPress.org
+
 on:
   push:
     tags:
     - "*"
+
 jobs:
   tag:
     name: New tag
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
+
+    - name: Setup node
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+        cache: 'npm'
+
+    - name: Install node modules
+      run: npm ci
+
+    - name: Build plugin
+      run: npm run build
+
     - name: WordPress Plugin Deploy
       uses: 10up/action-wordpress-plugin-deploy@stable
       env:
