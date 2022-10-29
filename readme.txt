@@ -28,6 +28,7 @@ I was able to strip out the relevant parts of the Handbook plugin retaining only
 ## Changelog
 
 [unreleased]
+* add support for `core/list`
 * refactor for current standards and practices courtesy of @Clorith
 * make editor padding match
 * load dashicons for non-logged in users
