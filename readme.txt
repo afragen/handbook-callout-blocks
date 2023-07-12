@@ -5,7 +5,7 @@ License: GPLv2 or later
 Tags: wporg, handbook, callout
 Requires at least: 5.9
 Requires PHP: 7.4
-Tested up to: 6.1
+Tested up to: 6.3
 Stable tag: 1.0.0
 
 WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin for use in posts and pages.
