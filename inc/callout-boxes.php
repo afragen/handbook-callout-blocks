@@ -4,7 +4,6 @@
  *
  * @package handbook
  */
-
 class WPorg_Handbook_Callout_Boxes {
 
 	/**
