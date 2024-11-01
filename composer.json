@@ -1,0 +1,48 @@
+{
+    "name": "afragen/handbook-callout-blocks",
+    "description": "WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin for use in posts and pages.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "callout",
+        "block"
+    ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Andy Fragen",
+            "email": "andy@thefragens.com",
+            "homepage": "https://thefragens.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/afragen/handbook-callout-blocks"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/afragen/handbook-callout-blocks/issues",
+        "source": "https://github.com/afragen/handbook-callout-blocks"
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0.0"
+      },
+      "config": {
+        "allow-plugins": {
+          "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+      },
+        "scripts": {
+        "make-pot": [
+            "wp i18n make-pot . languages/handbook-callout-blocks.pot --exclude='/build'"
+        ],
+        "wpcs": [
+            "vendor/bin/phpcbf .; vendor/bin/phpcs ."
+        ]
+    }
+}
