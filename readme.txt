@@ -5,7 +5,7 @@ License: GPLv2 or later
 Tags: wporg, handbook, callout
 Requires at least: 5.9
 Requires PHP: 7.4
-Tested up to: 6.3
+Tested up to: 6.7
 Stable tag: 1.0.0
 
 WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin for use in posts and pages.
@@ -33,3 +33,4 @@ I was able to strip out the relevant parts of the Handbook plugin retaining only
 * make editor padding match
 * load dashicons for non-logged in users
 * initial release
+* add composer.json

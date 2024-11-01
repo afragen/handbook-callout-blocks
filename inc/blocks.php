@@ -4,6 +4,10 @@
  *
  * @package handbook
  */
+
+/**
+ * Class WPorg_Handbook_Blocks
+ */
 class WPorg_Handbook_Blocks {
 
 	/**

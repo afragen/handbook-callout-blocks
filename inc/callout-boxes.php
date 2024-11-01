@@ -4,6 +4,10 @@
  *
  * @package handbook
  */
+
+/**
+ * Class WPorg_Handbook_Callout_Boxes
+ */
 class WPorg_Handbook_Callout_Boxes {
 
 	/**
@@ -130,7 +134,9 @@ class WPorg_Handbook_Callout_Boxes {
 	 * @return string Shortcode output as HTML markup.
 	 */
 	protected function build_callout_output( $content, $shortcode ) {
-		$class = $prefix = $output = '';
+		$class  = '';
+		$prefix = '';
+		$output = '';
 
 		// Sanitize message content.
 		$content = wp_kses_post( $content );
