@@ -39,7 +39,7 @@
       },
         "scripts": {
         "make-pot": [
-            "wp i18n make-pot . languages/handbook-callout-blocks.pot --exclude='/build'"
+            "wp i18n make-pot . languages/handbook-callout-blocks.pot"
         ],
         "wpcs": [
             "vendor/bin/phpcbf .; vendor/bin/phpcs ."
