@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-15T18:56:31+00:00\n"
+"POT-Creation-Date: 2024-11-15T19:28:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: handbook-callout-blocks\n"
@@ -59,62 +59,62 @@ msgstr ""
 msgid "Warning:"
 msgstr ""
 
-#: src/index.js:23
-msgid "Callout"
-msgstr ""
-
-#: src/index.js:24
-msgid "Callout boxes to be used in posts/pages."
-msgstr ""
-
-#: src/index.js:25
-msgid "alert"
-msgstr ""
-
-#: src/index.js:25
-msgid "tip"
-msgstr ""
-
-#: src/index.js:34
-msgid "This is the content of the callout boxes."
-msgstr ""
-
-#: src/variations.js:10
+#: build/index.js:1
 msgid "Info Callout"
 msgstr ""
 
-#: src/variations.js:16
+#: build/index.js:1
 msgid "Tip Callout"
 msgstr ""
 
-#: src/variations.js:22
+#: build/index.js:1
 msgid "Alert Callout"
 msgstr ""
 
-#: src/variations.js:28
+#: build/index.js:1
 msgid "Tutorial Callout"
 msgstr ""
 
-#: src/variations.js:34
+#: build/index.js:1
 msgid "Warning Callout"
 msgstr ""
 
-#: src/block.json
+#: build/index.js:1
+msgid "Callout"
+msgstr ""
+
+#: build/index.js:1
+msgid "Callout boxes to be used in posts/pages."
+msgstr ""
+
+#: build/index.js:1
+msgid "alert"
+msgstr ""
+
+#: build/index.js:1
+msgid "tip"
+msgstr ""
+
+#: build/index.js:1
+msgid "This is the content of the callout boxes."
+msgstr ""
+
+#: build/block.json
 msgctxt "block title"
 msgid "Callout"
 msgstr ""
 
-#: src/block.json
+#: build/block.json
 msgctxt "block description"
 msgid "Callout boxes to be used in posts/pages."
 msgstr ""
 
-#: src/block.json
+#: build/block.json
 msgctxt "block keyword"
 msgid "alert"
 msgstr ""
 
-#: src/block.json
+#: build/block.json
 msgctxt "block keyword"
 msgid "tip"
 msgstr ""
