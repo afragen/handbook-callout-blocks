@@ -5,26 +5,24 @@
  * @package handbook
  */
 
+namespace Fragen\Handbook_Callout_Blocks\Blocks;
+
+use const Fragen\Handbook_Callout_Blocks\WPORG_HANDBOOK_PLUGIN_FILE;
+
+bootstrap();
+
 /**
- * Class WPorg_Handbook_Blocks
+ * Initializes handbook blocks
+ *
+ * @return void
  */
-class WPorg_Handbook_Blocks {
-
-	/**
-	 * Initializes handbook blocks.
-	 */
-	public static function init() {
-		add_action( 'init', [ __CLASS__, 'do_init' ] );
-	}
-
-	/**
-	 * Fires on 'init' action.
-	 *
-	 * @access public
-	 */
-	public static function do_init() {
-		register_block_type_from_metadata( plugin_dir_path( WPORG_HANDBOOK_PLUGIN_FILE ) . 'build/block.json' );
-	}
+function bootstrap() {
+	add_action( 'init', __NAMESPACE__ . '\\register_blocks' );
 }
 
-WPorg_Handbook_Blocks::init();
+/**
+ * Fires on 'init' action.
+ */
+function register_blocks() {
+	register_block_type_from_metadata( plugin_dir_path( WPORG_HANDBOOK_PLUGIN_FILE ) . 'build/block.json' );
+}
