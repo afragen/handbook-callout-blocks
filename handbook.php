@@ -10,9 +10,9 @@
 /**
  * Plugin Name:       Handbook Callout Blocks
  * Description:       WP.org Handbook Callout blocks adapted from the WP.org Handbook plugin for use in posts and pages.
- * Version:           1.0.0
- * Author:            WordPress.org, afragen
- * Author URI:        https://wordpress.org/
+ * Version:           1.0.1
+ * Author:            WordPress.org, Andy Fragen
+ * Author URI:        https://thefragens.com/
  * License:           GPLv2 or later
  * Text Domain:       handbook-callout-blocks
  * Plugin URI:        https://github.com/afragen/handbook-callout-blocks
